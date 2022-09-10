@@ -1,5 +1,7 @@
 package com.noisysouth.blocks_and_items;
 
+import com.noisysouth.blocks_and_items.init.ModItems;
+
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
@@ -15,6 +17,7 @@ public class NoisySouthBlocksAndItemsMod {
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
 		System.out.println(Reference.MODID + ":preInit");
+		ModItems.init();
 	}
 	
 	@EventHandler
