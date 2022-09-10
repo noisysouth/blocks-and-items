@@ -1,0 +1,16 @@
+[
+{
+  "modid": "blocks_and_items",
+  "name": "NoisySouth's Blocks N Items Mod",
+  "description": "DESCRIPTION",
+  "version": "VERSION",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["YOUR NAME"],
+  "credits": "Suppergerrie2's tutorial and the internet!",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
